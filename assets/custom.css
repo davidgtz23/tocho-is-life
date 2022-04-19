@@ -268,5 +268,12 @@ a {
   justify-content: center;
   align-items: stretch;
 }
+.collections-list__item {
+  width: 33.3%;
+  min-height: 50rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /*# sourceMappingURL=custom.css.map */
