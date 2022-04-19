@@ -263,4 +263,10 @@ a {
   color: #fff;
 }
 
+.collections-list__content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 /*# sourceMappingURL=custom.css.map */
