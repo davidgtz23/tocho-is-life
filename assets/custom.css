@@ -290,8 +290,15 @@ a {
   width: 90%;
   margin: 0 auto;
 }
+.collections-list__item .info h2 {
+  font-family: "BentonSans";
+}
 .collections-list__item .info button {
   cursor: pointer;
+}
+.collections-list__item:hover .btn-black {
+  border: white;
+  color: white;
 }
 
 /*# sourceMappingURL=custom.css.map */

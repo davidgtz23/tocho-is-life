@@ -25,10 +25,16 @@
                     margin: 0 auto;
                 }
                 h2{
-
+                    font-family: 'BentonSans';
                 }
                 button{
                     cursor: pointer;
+                }
+            }
+            &:hover{
+                .btn-black{
+                    border: white;
+                    color: white;
                 }
             }
         }   
