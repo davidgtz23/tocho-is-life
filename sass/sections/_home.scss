@@ -1,0 +1,84 @@
+
+.home {
+    margin-top: -5rem;
+    &__banner {
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    &__collections {
+        margin-top: -13vw;
+        display: block;
+        width: 100%;
+        &-content {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            article {
+                width: 33.3%;
+                min-height: 60rem;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    
+    &__form {
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        position: relative;
+        margin-top: -10vw;
+        padding: 16rem 0 10rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-item {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 4rem;
+            h2 {
+                font-size: 3rem;
+                color: #fff;
+                text-align: left;
+            }
+            .form {
+                width: 100%;
+            }
+            .form-group {
+                width: 100%;
+                margin-bottom: 1.5rem;
+                label {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                    color: #fff;
+                }
+                input {
+                    display: block;
+                    width: 100%;
+                    height: 2rem;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: solid 1px #fff;
+                    color: #fff;
+                }
+            }
+            
+        }
+    }
+}  
