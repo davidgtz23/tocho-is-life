@@ -1,0 +1,97 @@
+
+{%- liquid
+  assign columns = section.blocks.size
+  if columns > 3
+    assign columns = 3
+  endif
+-%}
+
+<secttion class="collections-list">
+
+    <div class="collections-list__content">
+        <a href="https://tocho-is-life-mx.myshopify.com/pages/hombre" class="collections-list__item hombre">
+            <div class="info">
+              <img src="{{ 'bg_collection_name.png' | asset_img_url: 'master' }}" class="bgx">
+              <h2>HOMBRE</h2>
+              <button class="btn-black">Ver más</button>
+            </div>
+        </a>
+      <a href="https://tocho-is-life-mx.myshopify.com/pages/mujer" class="collections-list__item mujer">
+          <div class="info">
+            <img src="{{ 'bg_collection_name.png' | asset_img_url: 'master' }}" class="bgx">
+            <h2>MUJER</h2>
+            <button class="btn-black">Ver más</button>
+          </div>
+      </a>
+      <a href="https://tocho-is-life-mx.myshopify.com/pages/nino" class="collections-list__item nino">
+          <div class="info">
+            <img src="{{ 'bg_collection_name.png' | asset_img_url: 'master' }}" class="bgx">
+            <h2>NIÑO</h2>
+            <button class="btn-black">Ver más</button>
+          </div>
+      </a>
+    </div>
+
+</secttion>
+
+<style>
+
+  .collections-list__item.hombre{
+    background-image: url({{ 'collection_hombre.jpg' | asset_img_url: 'master' }});
+  }
+  .collections-list__item.hombre:hover{
+    background-image: url({{ 'collection_hombre_hover.jpg' | asset_img_url: 'master' }});
+  }
+
+  .collections-list__item.mujer{
+    background-image: url({{ 'collection_mujer.jpg' | asset_img_url: 'master' }});
+  }
+  .collections-list__item.mujer:hover{
+    background-image: url({{ 'collection_mujer_hover.jpg' | asset_img_url: 'master' }});
+  }
+
+  .collections-list__item.nino{
+    background-image: url({{ 'collection_nino.jpg' | asset_img_url: 'master' }});
+  }
+  .collections-list__item.nino:hover{
+    background-image: url({{ 'collection_nino_hover.jpg' | asset_img_url: 'master' }});
+  }
+
+</style>
+
+{% schema %}
+{
+  "name": "t:sections.collection-list.name",
+  "tag": "section",
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:sections.collection-list.blocks.featured_collection.name",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.collection-list.presets.name",
+      "blocks": [
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

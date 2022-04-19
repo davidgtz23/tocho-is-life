@@ -1,0 +1,20 @@
+
+
+<div class="collection-header" style="background-image: url({{ 'bg_header_collection.jpg' | asset_img_url: 'master' }});">
+    <div class="collection-header__title" style="background-image: url({{ 'bg_title_collection.png' | asset_img_url: 'master' }});">
+        <h1>{{- collection.title | escape | split: "-" -}}</h1>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-banner.name",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-collection-banner.settings.paragraph.content"
+    }
+  ]
+}
+{% endschema %}
