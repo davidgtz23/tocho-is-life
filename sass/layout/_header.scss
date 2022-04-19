@@ -5,7 +5,11 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     &__logo{
         background-image: url("../images/bg_logo.png");
         background-repeat: no-repeat;
