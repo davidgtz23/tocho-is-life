@@ -1,15 +1,6 @@
 
 .home {
     margin-top: -5rem;
-    &__banner {
-        position: relative;
-        img {
-            object-fit: cover;
-            width: 100%;
-            display: block;
-        }
-    }
-    
     &__collections {
         margin-top: -13vw;
         display: block;
@@ -82,3 +73,13 @@
         }
     }
 }  
+
+
+.banner-home {
+    position: relative;
+    img {
+        object-fit: cover;
+        width: 100%;
+        display: block;
+    }
+}
