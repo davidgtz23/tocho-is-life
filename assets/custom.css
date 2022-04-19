@@ -268,7 +268,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  margin-top: -10rem;
+  margin-top: -13vw;
 }
 .collections-list__item {
   width: 33.3%;
@@ -276,6 +276,22 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collections-list__item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collections-list__item .info .bgx {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.collections-list__item .info button {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=custom.css.map */
