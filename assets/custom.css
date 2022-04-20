@@ -369,8 +369,7 @@ a {
   height: 35rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 10rem;
+  align-items: flex-start;
   position: relative;
 }
 .collection-header__title {
@@ -379,6 +378,7 @@ a {
   width: 500px;
   display: flex;
   justify-content: center;
+  margin-top: 10rem;
   align-items: center;
 }
 .collection-header__title h1 {
@@ -389,7 +389,7 @@ a {
 }
 
 .collections-page {
-  margin-top: -10rem;
+  margin-top: -13vw;
 }
 .collections-page__option {
   background-repeat: no-repeat;
@@ -399,6 +399,10 @@ a {
   justify-content: center;
   align-items: center;
   height: 40rem;
+}
+.collections-page__option .name h2 {
+  font-family: "Press Style";
+  font-size: 8rem;
 }
 
 .contact {

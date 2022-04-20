@@ -68,8 +68,7 @@
     height: 35rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
+    align-items: flex-start;
     position: relative;
     &__title{
         background-size: contain;
@@ -77,6 +76,7 @@
         width: 500px;
         display: flex;
         justify-content: center;
+        margin-top: 10rem;
         align-items: center;
         h1{
             color: #fff;
@@ -89,7 +89,7 @@
 
 
 .collections-page{
-    margin-top: -10rem;
+    margin-top: -13vw;
     &__option{
         background-repeat: no-repeat;
         background-size: cover;
@@ -98,5 +98,11 @@
         justify-content: center;
         align-items: center;
         height: 40rem;
+        .name{
+            h2{
+                font-family: 'Press Style';
+                font-size: 8rem;
+            }
+        }
     }
 }
