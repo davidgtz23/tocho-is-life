@@ -404,6 +404,16 @@ a {
 .collections-page__option:not(:first-child) {
   position: relative;
 }
+.collections-page__option .image {
+  height: 100%;
+  padding-top: 5rem;
+}
+.collections-page__option .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
 .collections-page__option .name {
   display: flex;
   flex-direction: column;
