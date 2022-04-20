@@ -27,6 +27,10 @@
     }
 
     &__inline-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
         .list-menu{
             li{
                 .header__menu-item{
@@ -39,7 +43,6 @@
 
     &__icons{
         margin-right: 2rem;
-        margin-top: 0.8rem;
     }
 
 

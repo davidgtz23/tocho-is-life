@@ -131,13 +131,18 @@ a {
   display: block;
   width: 8rem;
 }
+.header__inline-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 .header__inline-menu .list-menu li .header__menu-item {
   font-family: "Press Style";
   font-size: 2rem;
 }
 .header__icons {
   margin-right: 2rem;
-  margin-top: 0.8rem;
 }
 
 .footer {
