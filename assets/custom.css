@@ -157,7 +157,7 @@ a {
   align-items: flex-end;
 }
 .footer__contact-item h2 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #fff;
   font-family: "Press Style";
 }
@@ -370,6 +370,9 @@ a {
   font-size: 1rem;
   margin-bottom: 2rem;
   min-height: 0;
+}
+.contact__item .contact-form .form-group .field__input:focus {
+  padding: 0;
 }
 
 /*# sourceMappingURL=custom.css.map */
