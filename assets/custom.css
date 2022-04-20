@@ -370,11 +370,35 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
+  position: relative;
+}
+.collection-header__title {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .collection-header__title h1 {
   color: #fff;
   font-family: "Press Style";
-  font-size: 4rem;
+  font-size: 10rem;
+  letter-spacing: 1rem;
+}
+
+.collections-page {
+  margin-top: -10rem;
+}
+.collections-page__option {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
 }
 
 .contact {

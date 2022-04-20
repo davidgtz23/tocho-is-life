@@ -69,11 +69,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10rem;
+    position: relative;
     &__title{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         h1{
             color: #fff;
             font-family: 'Press Style';
-            font-size: 4rem;
+            font-size: 10rem;
+            letter-spacing: 1rem;
         }
+    }
+}
+
+
+.collections-page{
+    margin-top: -10rem;
+    &__option{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40rem;
     }
 }
