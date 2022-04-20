@@ -10,7 +10,7 @@
             min-height: 50rem;
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center;
+            background-position: top center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -26,6 +26,7 @@
                 }
                 h2{
                     font-family: 'Press Style';
+                    font-size: 6rem;
                 }
                 button{
                     cursor: pointer;
@@ -33,8 +34,8 @@
             }
             &:hover{
                 .btn-black{
-                    border: white;
-                    color: white;
+                    border: solid 1px #fff;
+                    color: #fff;
                 }
             }
         }   

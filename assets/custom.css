@@ -275,7 +275,7 @@ a {
   min-height: 50rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -292,13 +292,14 @@ a {
 }
 .collections-list__item .info h2 {
   font-family: "Press Style";
+  font-size: 6rem;
 }
 .collections-list__item .info button {
   cursor: pointer;
 }
 .collections-list__item:hover .btn-black {
-  border: white;
-  color: white;
+  border: solid 1px #fff;
+  color: #fff;
 }
 
 /*# sourceMappingURL=custom.css.map */
