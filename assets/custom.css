@@ -399,10 +399,23 @@ a {
   justify-content: center;
   align-items: center;
   height: 40rem;
+  margin-top: -7vw;
+}
+.collections-page__option:not(:first-child) {
+  position: relative;
+}
+.collections-page__option .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .collections-page__option .name h2 {
   font-family: "Press Style";
-  font-size: 8rem;
+  font-size: 9rem;
+  width: 500px;
+  text-align: center;
+  letter-spacing: 0.2rem;
 }
 
 .contact {
