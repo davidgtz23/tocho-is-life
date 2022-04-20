@@ -289,14 +289,17 @@ a {
   display: block;
   width: 90%;
   margin: 0 auto;
-  opacity: 0;
+  opacity: 1;
+  position: absolute;
 }
 .collections-list__item .info h2 {
   font-family: "Press Style";
   font-size: 6rem;
+  position: relative;
 }
 .collections-list__item .info button {
   cursor: pointer;
+  position: relative;
 }
 .collections-list__item:hover h2 {
   color: #fff;

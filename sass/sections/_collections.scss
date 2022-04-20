@@ -23,14 +23,17 @@
                     display: block;
                     width: 90%;
                     margin: 0 auto;
-                    opacity: 0;
+                    opacity: 1;
+                    position: absolute;
                 }
                 h2{
                     font-family: 'Press Style';
                     font-size: 6rem;
+                    position: relative;
                 }
                 button{
                     cursor: pointer;
+                    position: relative;
                 }
             }
             &:hover{
