@@ -341,7 +341,7 @@ a {
   align-items: stretch;
   padding: 14rem 2rem;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   margin-top: -10vw;
   position: relative;
 }
