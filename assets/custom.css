@@ -144,6 +144,10 @@ a {
 .header__icons {
   margin-right: 2rem;
 }
+.header .menu-drawer {
+  background: rgba(248, 196, 42, 0.9);
+  width: 100%;
+}
 
 @media (max-width: 990px) {
   .header__inline-menu .list-menu.desktop {
