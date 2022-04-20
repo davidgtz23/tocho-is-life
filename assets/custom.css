@@ -131,6 +131,12 @@ a {
   display: block;
   width: 8rem;
 }
+.header__heading {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer {
   background-repeat: no-repeat;
