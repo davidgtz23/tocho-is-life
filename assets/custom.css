@@ -145,6 +145,11 @@ a {
   margin-right: 2rem;
 }
 
+@media (max-width: 990px) {
+  .list-menu {
+    display: none;
+  }
+}
 .footer {
   background-repeat: no-repeat;
   background-position: top center;
