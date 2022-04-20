@@ -48,8 +48,12 @@
 
 
 @media(max-width: 990px){
-    .list-menu{
-        display: none;
+
+    .header{
+        &__list-menu{
+            display: none;
+        }
     }
+    
 }
 
