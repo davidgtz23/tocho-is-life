@@ -319,4 +319,15 @@ a {
   opacity: 1;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.contact__item h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Press Style";
+}
+
 /*# sourceMappingURL=custom.css.map */
