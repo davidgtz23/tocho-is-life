@@ -23,6 +23,7 @@
                     display: block;
                     width: 90%;
                     margin: 0 auto;
+                    opacity: 0;
                 }
                 h2{
                     font-family: 'Press Style';
@@ -33,9 +34,15 @@
                 }
             }
             &:hover{
+                h2{
+                    color: #fff;
+                }
                 .btn-black{
                     border: solid 1px #fff;
                     color: #fff;
+                }
+                .info .bgx{
+                    opacity: 1;
                 }
             }
         }   
