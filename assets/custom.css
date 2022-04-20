@@ -285,12 +285,18 @@ a {
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .collections-list__item .info .bgx {
   display: block;
   width: 90%;
   margin: 0 auto;
-  opacity: 1;
+  opacity: 0;
   position: absolute;
 }
 .collections-list__item .info h2 {
