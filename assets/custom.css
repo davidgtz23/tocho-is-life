@@ -148,6 +148,9 @@ a {
   background: rgba(248, 196, 42, 0.9);
   width: 100%;
 }
+.header .menu-drawer__menu-item {
+  font-family: "Press Style";
+}
 
 @media (max-width: 990px) {
   .header__inline-menu .list-menu.desktop {

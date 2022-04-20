@@ -51,6 +51,9 @@
     .menu-drawer{
         background: rgb(248 196 42 / 90%);
         width: 100%;
+        &__menu-item{
+            font-family: 'Press Style';
+        }
     }
 }
 
