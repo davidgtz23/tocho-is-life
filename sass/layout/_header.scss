@@ -30,10 +30,14 @@
         .list-menu{
             li{
                 .header__menu-item{
-                    font-family: "BentonSans";
+                    font-family: 'Press Style';
                 }
             }
         }
+    }
+
+    &__icons{
+        margin-right: 2rem;
     }
 
 
