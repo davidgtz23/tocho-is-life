@@ -336,13 +336,22 @@ a {
   color: #fff;
   font-size: 4rem;
   font-family: "Press Style";
+  width: 100%;
+  max-width: 400px;
 }
 .contact__item .contact-form .form-group label {
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 .contact__item .contact-form .form-group .field__input {
   border: none;
+  box-shadow: none;
   border-bottom: solid 1px #fff;
+  padding: 0.5rem;
+  height: auto;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
