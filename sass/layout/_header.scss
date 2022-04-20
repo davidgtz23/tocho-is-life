@@ -26,11 +26,16 @@
         }
     }
 
-    &__heading{
-        background-color: red;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    &__inline-menu{
+        .list-menu{
+            li{
+                .header__menu-item{
+                    font-family: "BentonSans";
+                }
+            }
+        }
     }
+
+
 
 }

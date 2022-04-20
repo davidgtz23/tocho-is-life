@@ -131,11 +131,8 @@ a {
   display: block;
   width: 8rem;
 }
-.header__heading {
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header__inline-menu .list-menu li .header__menu-item {
+  font-family: "BentonSans";
 }
 
 .footer {
