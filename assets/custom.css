@@ -75,6 +75,7 @@ a {
   width: 8rem;
   text-align: center;
   font-family: "BentonSans";
+  font-size: 1.2rem;
 }
 
 .btn-white {
@@ -87,6 +88,7 @@ a {
   width: 8rem;
   text-align: center;
   font-family: "BentonSans";
+  font-size: 1.2rem;
 }
 
 .btn-yellow {
@@ -99,6 +101,7 @@ a {
   width: 9rem;
   text-align: center;
   font-family: "BentonSans";
+  font-size: 1.2rem;
 }
 
 .header {
@@ -156,6 +159,7 @@ a {
 .footer__contact-item h2 {
   font-size: 3rem;
   color: #fff;
+  font-family: "Press Style";
 }
 .footer__contact-item p {
   color: #ffde01;
