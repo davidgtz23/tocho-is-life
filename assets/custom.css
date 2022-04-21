@@ -426,7 +426,7 @@ a {
 }
 .collections-page__option .name .bgx {
   display: block;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   opacity: 0;
   position: absolute;
@@ -437,9 +437,16 @@ a {
   width: 500px;
   text-align: center;
   letter-spacing: 0.2rem;
+  position: relative;
+}
+.collections-page__option .name .btn-black {
+  position: relative;
 }
 .collections-page__option:hover .image img {
   filter: grayscale(0);
+}
+.collections-page__option:hover .name .bgx {
+  opacity: 1;
 }
 
 .contact {
