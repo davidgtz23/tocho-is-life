@@ -68,6 +68,11 @@ a {
 h1 {
   font-family: "Press Style";
   font-size: 3rem;
+  text-transform: uppercase;
+}
+
+main {
+  padding-top: 1rem;
 }
 
 .btn-black {
