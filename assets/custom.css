@@ -382,18 +382,22 @@ a {
 .collection-header__title {
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 500px;
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-bottom: 1rem;
   align-items: center;
 }
 .collection-header__title h1 {
   color: #fff;
-  font-family: "Press Style";
-  font-size: 10rem;
-  letter-spacing: 1rem;
+  font-family: Press Style;
+  font-size: 8rem;
+  letter-spacing: 0rem;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 7rem;
+  text-shadow: 0px -2px 5px #535353;
 }
 
 .collections-page {
