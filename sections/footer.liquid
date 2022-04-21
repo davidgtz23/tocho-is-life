@@ -14,7 +14,7 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
-<footer class="footer {{ page.url }} {{ page.title }}" style="background-image: url({{ 'bg_footer.png' | asset_img_url: 'master' }});">
+<footer class="footer footer_{{ template }}" style="background-image: url({{ 'bg_footer.png' | asset_img_url: 'master' }});">
     <div class="container">
         <div class="footer__contact">
             <a href="{{ routes.root_url }}" class="footer__contact-logo">
