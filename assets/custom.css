@@ -422,6 +422,14 @@ a {
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
+  position: relative;
+}
+.collections-page__option .name .bgx {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
 }
 .collections-page__option .name h2 {
   font-family: "Press Style";
