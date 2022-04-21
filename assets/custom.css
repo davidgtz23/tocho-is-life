@@ -78,7 +78,7 @@ a {
   font-size: 1.1rem;
 }
 .btn-black:hover {
-  background: #000;
+  background: #ffde01;
   color: #fff;
 }
 
@@ -460,6 +460,7 @@ a {
 .collections-page__option:hover .name .btn-black {
   border: solid 1px #fff;
   color: #fff;
+  background-color: #000;
 }
 
 .contact {
