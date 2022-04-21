@@ -399,14 +399,14 @@ a {
   justify-content: center;
   align-items: center;
   height: 40rem;
-  margin-top: -7vw;
+  margin-top: -10vw;
 }
 .collections-page__option:not(:first-child) {
   position: relative;
 }
 .collections-page__option .image {
   height: 100%;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 .collections-page__option .image img {
   width: 100%;
@@ -419,6 +419,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 .collections-page__option .name h2 {
   font-family: "Press Style";
