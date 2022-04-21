@@ -138,10 +138,8 @@
                 position: relative;
                 color: #000;
             }
-            .btn-black,
-            .btn-white{
-                border: solid 1px #fff;
-                color: #fff;
+            .btn-black{
+                position: relative;
             }
         }
 
@@ -158,9 +156,9 @@
                 h2{
                     color: #fff;
                 }
-                .btn-black,
-                .btn-white{
-                    position: relative;
+                .btn-black{
+                    border: solid 1px #fff;
+                    color: #fff;
                 }
             }
         }
