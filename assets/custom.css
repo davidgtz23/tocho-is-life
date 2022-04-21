@@ -77,6 +77,10 @@ a {
   font-family: "BentonSans";
   font-size: 1.1rem;
 }
+.btn-black:hover {
+  background: #000;
+  color: #fff;
+}
 
 .btn-white {
   background: none;
