@@ -400,6 +400,7 @@ a {
   align-items: center;
   height: 40rem;
   margin-top: -10vw;
+  transition: linear 0.2s;
 }
 .collections-page__option:not(:first-child) {
   position: relative;
@@ -413,6 +414,7 @@ a {
   height: 100%;
   object-fit: contain;
   object-position: bottom;
+  filter: grayscale(1);
 }
 .collections-page__option .name {
   display: flex;
@@ -427,6 +429,9 @@ a {
   width: 500px;
   text-align: center;
   letter-spacing: 0.2rem;
+}
+.collections-page__option:hover .image img {
+  filter: grayscale(0);
 }
 
 .contact {
