@@ -166,9 +166,12 @@ a {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  margin-top: -10vw;
+  margin-top: 4rem;
   padding: 8rem 0 2rem 0;
   position: relative;
+}
+.footer.footer_index {
+  margin-top: -10vw;
 }
 .footer__contact {
   display: flex;
