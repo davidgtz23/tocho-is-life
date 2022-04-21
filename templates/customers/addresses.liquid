@@ -2,6 +2,10 @@
 
 <script src="{{ 'customer.js' | asset_url }}" defer></script>
 
+<div class="product-header" style="background-image: url({{ 'bg_header_collection.jpg' | asset_img_url: 'master' }});">
+
+</div>
+
 {%- paginate customer.addresses by 5 -%}
   <div class="customer addresses" data-customer-addresses>
     <svg style="display: none">
