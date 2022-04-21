@@ -130,15 +130,18 @@
             }
             h2{
                 font-family: 'Press Style';
-                font-size: 9rem;
+                font-size: 7rem;
+                line-height: 6rem;
                 width: 500px;
                 text-align: center;
                 letter-spacing: 0.2rem;
                 position: relative;
                 color: #000;
             }
-            .btn-black{
-                position: relative;
+            .btn-black,
+            .btn-white{
+                border: solid 1px #fff;
+                color: #fff;
             }
         }
 
@@ -154,6 +157,10 @@
                 }
                 h2{
                     color: #fff;
+                }
+                .btn-black,
+                .btn-white{
+                    position: relative;
                 }
             }
         }

@@ -433,15 +433,18 @@ a {
 }
 .collections-page__option .name h2 {
   font-family: "Press Style";
-  font-size: 9rem;
+  font-size: 7rem;
+  line-height: 6rem;
   width: 500px;
   text-align: center;
   letter-spacing: 0.2rem;
   position: relative;
   color: #000;
 }
-.collections-page__option .name .btn-black {
-  position: relative;
+.collections-page__option .name .btn-black,
+.collections-page__option .name .btn-white {
+  border: solid 1px #fff;
+  color: #fff;
 }
 .collections-page__option:hover .image img {
   filter: grayscale(0);
@@ -451,6 +454,10 @@ a {
 }
 .collections-page__option:hover .name h2 {
   color: #fff;
+}
+.collections-page__option:hover .name .btn-black,
+.collections-page__option:hover .name .btn-white {
+  position: relative;
 }
 
 .contact {
