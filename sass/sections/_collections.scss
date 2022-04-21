@@ -135,6 +135,7 @@
                 text-align: center;
                 letter-spacing: 0.2rem;
                 position: relative;
+                color: #000;
             }
             .btn-black{
                 position: relative;
@@ -150,6 +151,9 @@
             .name{
                 .bgx{
                     opacity: 1;
+                }
+                h2{
+                    color: #fff;
                 }
             }
         }
