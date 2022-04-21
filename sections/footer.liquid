@@ -28,60 +28,17 @@
         </div>
         <div class="footer__legals">
 
-            <ul class="list-menu list-menu--inline desktop" role="list">
-              {%- for link in linklists.footer.links -%}
-                <li>
-                  {%- if link.links != blank -%}
-                    <details-disclosure>
-                      <details>
-                        <summary class="header__menu-item list-menu__item link focus-inset">
-                          <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                          {% render 'icon-caret' %}
-                        </summary>
-                        <ul class="header__submenu list-menu list-menu--disclosure caption-large motion-reduce" role="list" tabindex="-1">
-                          {%- for childlink in link.links -%}
-                            <li>
-                              {%- if childlink.links == blank -%}
-                                <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                  {{ childlink.title | escape }}
-                                </a>
-                              {%- else -%}
-                                <details>
-                                  <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                    {{ childlink.title | escape }}
-                                    {% render 'icon-caret' %}
-                                  </summary>
-                                  <ul class="header__submenu list-menu motion-reduce">
-                                    {%- for grandchildlink in childlink.links -%}
-                                      <li>
-                                        <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                          {{ grandchildlink.title | escape }}
-                                        </a>
-                                      </li>
-                                    {%- endfor -%}
-                                  </ul>
-                                </details>
-                              {%- endif -%}
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-                      </details>
-                    </details-disclosure>
-                  {%- else -%}
-                    <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                      <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                    </a>
-                  {%- endif -%}
-                </li>
-              {%- endfor -%}
-            </ul>
+              
 
 
             <div class="footer__legals-links">
                 <p>COPYRIGHT 2020 TOCHO IS LIFE</p>
-                <a href="">AVISO DE PRIVACIDAD</a>
-                <a href="">TÉRMINOS Y CONDICIONES</a>
-                <a href="">POLÍTICAS DE ENVÍO Y DEVOLUCIONES</a>
+                {%- for link in linklists.footer.links -%}
+                    <a href="{{ link.url }}">
+                      {{ link.title | escape }}
+                    </a>
+                {%- endfor -%}
+
             </div>
             <div class="footer__legals-rss">
               <a href="">
