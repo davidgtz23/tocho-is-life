@@ -597,12 +597,14 @@ h1,
   .collections-page__option {
     margin-top: -35vw;
     flex-direction: column;
+    justify-content: flex-end;
   }
   .collections-page__option .image {
     width: 200px;
     padding-top: 0;
     height: auto;
     order: 2;
+    height: 250px;
   }
   .collections-page__option .image img {
     display: block;
@@ -611,10 +613,12 @@ h1,
   .collections-page__option .name {
     width: 90%;
     order: 1;
+    margin-bottom: 3rem;
   }
   .collections-page__option .name h2 {
     font-size: 4rem;
     line-height: 4rem;
+    width: 100%;
   }
   .collections-page__option .name .bgx {
     width: 90%;
