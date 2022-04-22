@@ -174,21 +174,22 @@
 
 @media(max-width: 1023px){
     .collections-page{
-        margin-top: -25rem;
+        margin-top: 0rem;
         &__option{
             margin-top: -15vw;
             .image{
                 width: 40%;
-                padding-top: 0;
+                padding-top: 10rem;
                 img{
                     display: block;
                     width: 100%;
+                    filter: grayscale(0);
                 }
             }
             .name{
                 width: 60%;
                 h2{
-                    font-size: 3rem;
+                    font-size: 6rem;
                 }
                 .bgx{
                     width: 90%;
@@ -225,6 +226,30 @@
         }
     }
 
-    
+    .collections-page{
+        margin-top: -5rem;
+        &__option{
+            margin-top: -15vw;
+            flex-direction: column;
+            .image{
+                width: 40%;
+                padding-top: 10rem;
+                img{
+                    display: block;
+                    width: 100%;
+                    filter: grayscale(0);
+                }
+            }
+            .name{
+                width: 60%;
+                h2{
+                    font-size: 6rem;
+                }
+                .bgx{
+                    width: 90%;
+                }
+            }
+        }
+    }    
 
 }

@@ -545,24 +545,25 @@ h1,
 
 @media (max-width: 1023px) {
   .collections-page {
-    margin-top: -25rem;
+    margin-top: 0rem;
   }
   .collections-page__option {
     margin-top: -15vw;
   }
   .collections-page__option .image {
     width: 40%;
-    padding-top: 0;
+    padding-top: 10rem;
   }
   .collections-page__option .image img {
     display: block;
     width: 100%;
+    filter: grayscale(0);
   }
   .collections-page__option .name {
     width: 60%;
   }
   .collections-page__option .name h2 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
   .collections-page__option .name .bgx {
     width: 90%;
@@ -588,6 +589,32 @@ h1,
   }
   .collection-header__title h1 {
     font-size: 5rem;
+  }
+
+  .collections-page {
+    margin-top: -5rem;
+  }
+  .collections-page__option {
+    margin-top: -15vw;
+    flex-direction: column;
+  }
+  .collections-page__option .image {
+    width: 40%;
+    padding-top: 10rem;
+  }
+  .collections-page__option .image img {
+    display: block;
+    width: 100%;
+    filter: grayscale(0);
+  }
+  .collections-page__option .name {
+    width: 60%;
+  }
+  .collections-page__option .name h2 {
+    font-size: 6rem;
+  }
+  .collections-page__option .name .bgx {
+    width: 90%;
   }
 }
 .contact {
