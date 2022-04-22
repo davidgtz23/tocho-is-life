@@ -476,7 +476,7 @@ h1,
   justify-content: center;
   align-items: center;
   height: 40rem;
-  margin-top: -10vw;
+  margin-top: -11vw;
   transition: linear 0.2s;
 }
 .collections-page__option:not(:first-child) {
@@ -562,18 +562,25 @@ h1,
   .collection-page {
     margin-top: -25rem;
   }
-  .collection-page-option {
-    height: 20rem;
+  .collection-page__option {
+    margin-top: -15vw;
   }
-  .collection-page-option .image {
-    width: 10rem;
+  .collection-page__option .image {
+    width: 40%;
+    padding-top: 0;
   }
-  .collection-page-option .image img {
+  .collection-page__option .image img {
     display: block;
     width: 100%;
   }
-  .collection-page-option .name h2 {
+  .collection-page__option .name {
+    width: 60%;
+  }
+  .collection-page__option .name h2 {
     font-size: 3rem;
+  }
+  .collection-page__option .name .bgx {
+    width: 90%;
   }
 }
 .contact {
