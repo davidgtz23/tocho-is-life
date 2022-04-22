@@ -92,10 +92,12 @@
         }
         &__legals{
             flex-direction: column;
-            &-links p,
-            &-links a {
-                margin: 0.5rem 0;
-            }
+            &-links{
+                flex-direction: column;
+                p,a {
+                    margin: 0.5rem 0;
+                }
+            } 
             &-rss{
                 
             }

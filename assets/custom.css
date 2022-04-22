@@ -286,6 +286,9 @@ h1,
   .footer__legals {
     flex-direction: column;
   }
+  .footer__legals-links {
+    flex-direction: column;
+  }
   .footer__legals-links p, .footer__legals-links a {
     margin: 0.5rem 0;
   }
