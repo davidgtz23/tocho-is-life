@@ -73,7 +73,19 @@
 @media(max-width: 767px){
 
     .header{
-        
+        &__logo{
+            width: 8rem;
+            height: 7rem;
+            padding: 1rem 0 0 1rem;
+            img{
+                width: 4rem;
+            }
+        }
+        &__inline{
+            &-menu{
+                margin-top: 0;
+            }
+        }
     }
 
 }

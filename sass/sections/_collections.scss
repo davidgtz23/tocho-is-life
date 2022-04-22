@@ -171,3 +171,18 @@
         }
     }
 }
+
+@media(max-width: 767px){
+
+    .collections-list{
+        &__content{
+            flex-direction: column;
+        }
+            &__item{
+                width: 100%;
+                min-height: initial;
+                height: 30rem;
+            }
+    }
+
+}

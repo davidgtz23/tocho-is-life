@@ -179,6 +179,19 @@ h1,
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .header__logo {
+    width: 8rem;
+    height: 7rem;
+    padding: 1rem 0 0 1rem;
+  }
+  .header__logo img {
+    width: 4rem;
+  }
+  .header__inline-menu {
+    margin-top: 0;
+  }
+}
 .footer {
   background-repeat: no-repeat;
   background-position: top center;
@@ -188,7 +201,7 @@ h1,
   position: relative;
 }
 .footer.footer_index {
-  margin-top: -10vw;
+  margin-top: -13vw;
 }
 .footer__contact {
   display: flex;
@@ -489,11 +502,21 @@ h1,
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 767px) {
+  .collections-list__content {
+    flex-direction: column;
+  }
+  .collections-list__item {
+    width: 100%;
+    min-height: initial;
+    height: 30rem;
+  }
+}
 .contact {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding: 14rem 2rem;
+  padding: 14rem 0;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -10vw;
@@ -502,6 +525,7 @@ h1,
 .contact__item {
   width: 50%;
   max-width: 500px;
+  padding: 0 2rem;
 }
 .contact__item h2 {
   color: #fff;
