@@ -75,7 +75,7 @@
         &__contact{
             padding: 0;
             &-logo{
-                width: 4rem;
+                width: 7rem;
                 img{
                     display: block;
                     width: 100%;
@@ -83,8 +83,21 @@
             }
             &-item{
                 h2{
-                    font-size: 2rem;
+                    font-size: 3rem;
                 }
+                p{
+                    text-align: right;
+                }
+            }
+        }
+        &__legals{
+            flex-direction: column;
+            &-links p,
+            &-links a {
+                margin: 0.5rem 0;
+            }
+            &-rss{
+                
             }
         }
     }

@@ -271,14 +271,23 @@ h1,
     padding: 0;
   }
   .footer__contact-logo {
-    width: 4rem;
+    width: 7rem;
   }
   .footer__contact-logo img {
     display: block;
     width: 100%;
   }
   .footer__contact-item h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .footer__contact-item p {
+    text-align: right;
+  }
+  .footer__legals {
+    flex-direction: column;
+  }
+  .footer__legals-links p, .footer__legals-links a {
+    margin: 0.5rem 0;
   }
 }
 .home {
