@@ -544,31 +544,27 @@ h1,
 }
 
 @media (max-width: 1023px) {
-  .collections-page__option .name {
-    background-color: red;
-  }
-
-  .collection-page {
+  .collections-page {
     margin-top: -25rem;
   }
-  .collection-page__option {
+  .collections-page__option {
     margin-top: -15vw;
   }
-  .collection-page__option .image {
+  .collections-page__option .image {
     width: 40%;
     padding-top: 0;
   }
-  .collection-page__option .image img {
+  .collections-page__option .image img {
     display: block;
     width: 100%;
   }
-  .collection-page__option .name {
+  .collections-page__option .name {
     width: 60%;
   }
-  .collection-page__option .name h2 {
+  .collections-page__option .name h2 {
     font-size: 3rem;
   }
-  .collection-page__option .name .bgx {
+  .collections-page__option .name .bgx {
     width: 90%;
   }
 }
