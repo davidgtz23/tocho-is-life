@@ -229,19 +229,23 @@
     .collections-page{
         margin-top: -5rem;
         &__option{
-            margin-top: -15vw;
-            flex-direction: column;
+            margin-top: -35vw;
             .image{
                 width: 200px;
                 padding-top: 0;
                 height: auto;
+                order: 2;
                 img{
                     display: block;
                     width: 100%;
                 }
+                &.left{
+                    order: 1;
+                }
             }
             .name{
                 width: 90%;
+                order: 1;
                 h2{
                     font-size: 4rem;
                     line-height: 4rem;
