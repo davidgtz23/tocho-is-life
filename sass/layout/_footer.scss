@@ -8,6 +8,9 @@
     &.footer_index{
         margin-top: -13vw;
     }
+    &.footer_page.hombre{
+        margin-top: -10vw;
+    }
     &__contact {
         display: flex;
         justify-content: space-between;
@@ -74,6 +77,9 @@
     .footer{
         &.footer_index{
             margin-top: -25vw;
+        }
+        &.footer_page.hombre{
+            margin-top: -13vw;
         }
         &__contact{
             padding: 0;

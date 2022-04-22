@@ -208,6 +208,9 @@ h1,
 .footer.footer_index {
   margin-top: -13vw;
 }
+.footer.footer_page.hombre {
+  margin-top: -10vw;
+}
 .footer__contact {
   display: flex;
   justify-content: space-between;
@@ -269,6 +272,9 @@ h1,
 @media (max-width: 767px) {
   .footer.footer_index {
     margin-top: -25vw;
+  }
+  .footer.footer_page.hombre {
+    margin-top: -13vw;
   }
   .footer__contact {
     padding: 0;
