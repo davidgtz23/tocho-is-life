@@ -551,6 +551,14 @@ h1,
     padding-bottom: 5rem;
     height: 25rem;
   }
+
+  .collection-header {
+    height: 25rem;
+  }
+
+  .collection-page {
+    margin-top: -25rem;
+  }
 }
 .contact {
   display: flex;
