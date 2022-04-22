@@ -72,6 +72,9 @@
 @media(max-width: 767px){
 
     .footer{
+        &.footer_index{
+            margin-top: -25vw;
+        }
         &__contact{
             padding: 0;
             &-logo{
