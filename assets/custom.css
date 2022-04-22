@@ -599,19 +599,20 @@ h1,
     flex-direction: column;
   }
   .collections-page__option .image {
-    width: 40%;
-    padding-top: 10rem;
+    width: 200px;
+    padding-top: 0;
+    height: auto;
   }
   .collections-page__option .image img {
     display: block;
     width: 100%;
-    filter: grayscale(0);
   }
   .collections-page__option .name {
-    width: 60%;
+    width: 90%;
   }
   .collections-page__option .name h2 {
-    font-size: 6rem;
+    font-size: 4rem;
+    line-height: 4rem;
   }
   .collections-page__option .name .bgx {
     width: 90%;
