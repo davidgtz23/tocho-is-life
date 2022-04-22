@@ -556,6 +556,10 @@ h1,
 }
 
 @media (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
   .contact__item {
     width: 100%;
   }
