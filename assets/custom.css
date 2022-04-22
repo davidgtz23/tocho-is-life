@@ -209,7 +209,7 @@ h1,
   margin-top: -10vw;
 }
 .footer.footer_hombre, .footer.footer_mujer, .footer.footer_nino {
-  margin-top: -10vw;
+  margin-top: -13vw;
 }
 .footer__contact {
   display: flex;
@@ -543,28 +543,7 @@ h1,
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-@media (max-width: 767px) {
-  .collections-list__content {
-    flex-direction: column;
-  }
-  .collections-list__item {
-    width: 100%;
-    min-height: initial;
-    height: 20rem;
-    background-position: center -3rem;
-  }
-  .collections-list__item:last-child {
-    padding-bottom: 5rem;
-    height: 25rem;
-  }
-
-  .collection-header {
-    height: 25rem;
-  }
-  .collection-header__title h1 {
-    font-size: 5rem;
-  }
-
+@media (max-width: 1023px) {
   .collection-page {
     margin-top: -25rem;
   }
@@ -587,6 +566,28 @@ h1,
   }
   .collection-page__option .name .bgx {
     width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .collections-list__content {
+    flex-direction: column;
+  }
+  .collections-list__item {
+    width: 100%;
+    min-height: initial;
+    height: 20rem;
+    background-position: center -3rem;
+  }
+  .collections-list__item:last-child {
+    padding-bottom: 5rem;
+    height: 25rem;
+  }
+
+  .collection-header {
+    height: 25rem;
+  }
+  .collection-header__title h1 {
+    font-size: 5rem;
   }
 }
 .contact {

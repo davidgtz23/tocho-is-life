@@ -172,6 +172,32 @@
     }
 }
 
+@media(max-width: 1023px){
+    .collection-page{
+        margin-top: -25rem;
+        &__option{
+            margin-top: -15vw;
+            .image{
+                width: 40%;
+                padding-top: 0;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .name{
+                width: 60%;
+                h2{
+                    font-size: 3rem;
+                }
+                .bgx{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
 @media(max-width: 767px){
 
     .collections-list{
@@ -199,28 +225,6 @@
         }
     }
 
-    .collection-page{
-        margin-top: -25rem;
-        &__option{
-            margin-top: -15vw;
-            .image{
-                width: 40%;
-                padding-top: 0;
-                img{
-                    display: block;
-                    width: 100%;
-                }
-            }
-            .name{
-                width: 60%;
-                h2{
-                    font-size: 3rem;
-                }
-                .bgx{
-                    width: 90%;
-                }
-            }
-        }
-    }
+    
 
 }
