@@ -192,10 +192,30 @@
 
     .collection-header{
         height: 25rem;
+        &__title{
+            h1{
+                font-size: 5rem;
+            }
+        }
     }
 
     .collection-page{
         margin-top: -25rem;
+        &-option{
+            height: 20rem;
+            .image{
+                width: 10rem;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .name{
+                h2{
+                    font-size: 3rem;
+                }
+            }
+        }
     }
 
 }

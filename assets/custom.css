@@ -555,9 +555,25 @@ h1,
   .collection-header {
     height: 25rem;
   }
+  .collection-header__title h1 {
+    font-size: 5rem;
+  }
 
   .collection-page {
     margin-top: -25rem;
+  }
+  .collection-page-option {
+    height: 20rem;
+  }
+  .collection-page-option .image {
+    width: 10rem;
+  }
+  .collection-page-option .image img {
+    display: block;
+    width: 100%;
+  }
+  .collection-page-option .name h2 {
+    font-size: 3rem;
   }
 }
 .contact {
