@@ -602,14 +602,13 @@ h1,
     width: 200px;
     padding-top: 0;
     height: auto;
-    order: 2;
   }
   .collections-page__option .image img {
     display: block;
     width: 100%;
   }
   .collections-page__option .image.left {
-    order: 1;
+    order: 2;
   }
   .collections-page__option .name {
     width: 90%;
