@@ -173,6 +173,10 @@
 }
 
 @media(max-width: 1023px){
+
+    .collections-page__option .name{
+        background-color: red;
+    }
     .collection-page{
         margin-top: -25rem;
         &__option{
