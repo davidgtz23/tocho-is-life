@@ -230,6 +230,7 @@
         margin-top: -5rem;
         &__option{
             margin-top: -35vw;
+            flex-direction: column;
             .image{
                 width: 200px;
                 padding-top: 0;
