@@ -8,7 +8,9 @@
     &.footer_index{
         margin-top: -13vw;
     }
-    &.footer_page.hombre{
+    &.footer_hombre,
+    &.footer_mujer,
+    &.footer_nino{
         margin-top: -10vw;
     }
     &__contact {
@@ -78,7 +80,9 @@
         &.footer_index{
             margin-top: -25vw;
         }
-        &.footer_page.hombre{
+        &.footer_hombre,
+        &.footer_mujer,
+        &.footer_nino{
             margin-top: -13vw;
         }
         &__contact{
