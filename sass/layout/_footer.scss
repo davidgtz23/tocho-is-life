@@ -68,3 +68,25 @@
     }
 }
   
+
+@media(max-width: 767px){
+
+    .footer{
+        &__contact{
+            padding: 0;
+            &-logo{
+                width: 4rem;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            &-item{
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+}
