@@ -1,6 +1,7 @@
 
 <section class="banner-home">
-    <img src="{{ 'bg_header_title.png' | asset_img_url: 'master' }}" alt="">
+    <img class="banner_desktop" src="{{section.settings.bannerImageDesktop |  img_url: 'master'}}" alt="">
+    <img class="banner_mobile" src="{{section.settings.bannerImageMobile |  img_url: 'master'}}" alt="">
 </section>
 
 
@@ -13,20 +14,15 @@
       "id": "bannerImageDesktop",
       "type": "image_picker",
       "label": "Banner Image Desktop"
+    },
+    {
+      "id": "bannerImageMobile",
+      "type": "image_picker",
+      "label": "Banner Image Mobile"
     }
   ],
   "blocks": [
-    {
-      "type": "hero",
-      "name": "Hero Banner",
-      "settings": [
-        {
-          "id": "bannerImageDesktop",
-          "type": "image_picker",
-          "label": "Banner Image Desktop"
-        }
-      ]
-    }
+   
   ],
   "presets": [
    
