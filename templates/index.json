@@ -1,1 +1,51 @@
-{"sections":{"1637868487b5b62293":{"type":"banner-home","settings":{}},"1638319796a03d9712":{"type":"collection-list","blocks":{"16383197968c7f59d3-0":{"type":"featured_collection","settings":{"collection":"hombre"}},"16383197968c7f59d3-1":{"type":"featured_collection","settings":{"collection":"mujer"}},"16383197968c7f59d3-2":{"type":"featured_collection","settings":{"collection":"nino"}}},"block_order":["16383197968c7f59d3-0","16383197968c7f59d3-1","16383197968c7f59d3-2"],"settings":{"title":"","image_ratio":"adapt","color_scheme":"background-1","swipe_on_mobile":true,"image_padding":false,"show_view_all":false}},"163832147035baeeb2":{"type":"contact-form","settings":{"heading":""}}},"order":["1637868487b5b62293","1638319796a03d9712","163832147035baeeb2"]}
+{
+  "sections": {
+    "1637868487b5b62293": {
+      "type": "banner-home",
+      "settings": {
+        "bannerImageDesktop": "shopify:\/\/shop_images\/headerDesktop.png"
+      }
+    },
+    "1638319796a03d9712": {
+      "type": "collection-list",
+      "blocks": {
+        "16383197968c7f59d3-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hombre"
+          }
+        },
+        "16383197968c7f59d3-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mujer"
+          }
+        },
+        "16383197968c7f59d3-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nino"
+          }
+        }
+      },
+      "block_order": [
+        "16383197968c7f59d3-0",
+        "16383197968c7f59d3-1",
+        "16383197968c7f59d3-2"
+      ],
+      "settings": {
+      }
+    },
+    "163832147035baeeb2": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "1637868487b5b62293",
+    "1638319796a03d9712",
+    "163832147035baeeb2"
+  ]
+}
