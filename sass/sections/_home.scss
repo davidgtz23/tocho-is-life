@@ -81,5 +81,29 @@
         object-fit: cover;
         width: 100%;
         display: block;
+        &.banner_mobile{
+            display: none;
+        }
     }
+}
+
+
+@media(max-width: 767px){
+
+    .banner-home {
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            display: block;
+            &.banner_desktop{
+                display: none;
+            }
+            &.banner_mobile{
+                display: block;
+            }
+        }
+    }
+
+
 }

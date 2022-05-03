@@ -383,7 +383,26 @@ h1,
   width: 100%;
   display: block;
 }
+.banner-home img.banner_mobile {
+  display: none;
+}
 
+@media (max-width: 767px) {
+  .banner-home {
+    position: relative;
+  }
+  .banner-home img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+  }
+  .banner-home img.banner_desktop {
+    display: none;
+  }
+  .banner-home img.banner_mobile {
+    display: block;
+  }
+}
 .collections-list__content {
   display: flex;
   justify-content: center;
