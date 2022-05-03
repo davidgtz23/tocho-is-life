@@ -3,7 +3,8 @@
     "1637868487b5b62293": {
       "type": "banner-home",
       "settings": {
-        "bannerImageDesktop": "shopify:\/\/shop_images\/headerDesktop.png"
+        "bannerImageDesktop": "shopify:\/\/shop_images\/headerDesktop.png",
+        "bannerImageMobile": "shopify:\/\/shop_images\/headerMobile_f003ad98-f84a-417c-960e-7ddbc52783ba.png"
       }
     },
     "1638319796a03d9712": {
