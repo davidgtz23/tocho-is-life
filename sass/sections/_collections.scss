@@ -204,6 +204,7 @@
     .collections-list{
         &__content{
             flex-direction: column;
+            margin-top: -28vw;
         }
             &__item{
                 width: 100%;
@@ -222,6 +223,7 @@
         &__title{
             h1{
                 font-size: 5rem;
+                line-height: 4.5rem;
             }
         }
     }

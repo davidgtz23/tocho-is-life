@@ -591,6 +591,7 @@ h1,
 @media (max-width: 767px) {
   .collections-list__content {
     flex-direction: column;
+    margin-top: -28vw;
   }
   .collections-list__item {
     width: 100%;
@@ -608,6 +609,7 @@ h1,
   }
   .collection-header__title h1 {
     font-size: 5rem;
+    line-height: 4.5rem;
   }
 
   .collections-page {
