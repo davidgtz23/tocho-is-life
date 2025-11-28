@@ -34,6 +34,7 @@
         },
         "button_m4JDeE": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -46,6 +47,7 @@
         "text_3wF4me",
         "button_m4JDeE"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "background-1",
